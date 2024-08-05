@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.first-wrapper {
+  width: 300px;
+  height: 450px;
+  background: #ffb200;
+  border-radius: 10px 0px 0px 10px;
+}
+h1 {
+  font-family: "Lexend Deca";
+  font-weight: 700;
+  color: white;
+  padding-left: 2.25rem;
+}
+.image-one {
+  padding-top: 3rem;
+  padding-left: 1.25rem;
+}
+.suden-prep {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding-left: 2.2rem;
+  line-height: 1.8rem;
+}
+
+.second-wrapper {
+  width: 300px;
+  height: 450px;
+  border-radius: ;
+  background: #088395;
+}
+.image-two {
+  padding-top: 3rem;
+  padding-left: 1.25rem;
+}
+.suv {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding-left: 2.2rem;
+  line-height: 1.8rem;
+}
+.t-wrapper {
+  width: 300px;
+  height: 450px;
+  border-radius: 0px 10px 10px 0px;
+  background: #114232;
+}
+.image-three {
+  padding-top: 3rem;
+  padding-left: 1.25rem;
+}
+.lux {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding-left: 2.2rem;
+  line-height: 1.8rem;
+}
+body {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+#suden {
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+}
+button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.button-1 {
+  border-radius: 100px;
+  border: 2px solid #ffb200;
+  transition-duration: 0.4s;
+  color: #ffb200;
+}
+.button-1:hover {
+  background-color: #088395;
+}
+.button-2 {
+  border-radius: 100px;
+  border: 2px solid #088395;
+  transition-duration: 0.4s;
+  color: #088395;
+}
+.button-2:hover {
+  background-color: #ffb200;
+}
+.button-3 {
+  border-radius: 100px;
+  border: 2px solid #114232;
+  transition-duration: 0.4s;
+  color: #114232;
+}
+.button-3:hover {
+  background-color: #854632;
+}
+
+@media (max-width: 1000px;) {
+  .container {
+    flex-direction: column;
+    box-sizing: 20px;
+    display: none;
+    padding-right: 500rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
